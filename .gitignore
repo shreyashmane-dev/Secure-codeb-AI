@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Runtime artifacts
+backend/storage/tmp/
+backend/storage/scanner.log
+backend/storage/scan_history.json
+backend/firebase-service-account.json
+.env
+backend/.env
+frontend/.env
